@@ -1,6 +1,7 @@
 # V0rtex Br0wser
 
-<img src="https://publicdomainvectors.org/photos/sven222-Mechanic-Pirate.png" width="200px" height="300px">
+
+<img src="icon.png" width="200px" height="300px">
 
 ## Introduction
 
