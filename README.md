@@ -10,6 +10,9 @@ Welcome to **V0rtex**, the world's most customizable and hackable browser! V0rte
 ## Philosophy and Vision
 Amidst a landscape dominated by corporate giants, V0rtex emerges as a minimalist alternative to Chrome and Firefox. Rooted in the libre software movement, V0rtex prioritizes clarity, transparency, and deep customization. While its privacy features evolve, V0rtex empowers users with an accessible, comprehensible browser experience, distinct from Chrome-based norms. It stands for user choice and independence, offering a soulful alternative in today's tech sphere.
 
+## Screenshots
+<img src="vortex_Screenshot_2024-07-02 12-11-18.png">
+
 ## Key Features
 
 ### Customizable GUI
