@@ -1,11 +1,14 @@
 # V0rtex Br0wser
 
-
 <img src="icon.png" width="200px" height="300px">
 
 ## Introduction
 
 Welcome to **V0rtex**, the world's most customizable and hackable browser! V0rtex is an open-source browser designed with hobbyists and Linux users in mind, providing unparalleled flexibility and simplicity in a minimalistic package.
+
+**V0rtex** : Use It, Hack It, Own It
+
+> Your vessel on the Information Superhighway
 
 ## Philosophy and Vision
 Amidst a landscape dominated by corporate giants, V0rtex emerges as a minimalist alternative to Chrome and Firefox. Rooted in the libre software movement, V0rtex prioritizes clarity, transparency, and deep customization. While its privacy features evolve, V0rtex empowers users with an accessible, comprehensible browser experience, distinct from Chrome-based norms. It stands for user choice and independence, offering a soulful alternative in today's tech sphere.
