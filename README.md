@@ -137,7 +137,7 @@ python setup_config.py
 We welcome contributions from the community! If you have ideas for new features, bug fixes, or enhancements, feel free to submit a pull request on our [GitHub repository](https://github.com/AmosNimos/Vortex).
 
 ## License
-V0rtex is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+V0rtex is licensed under the GNU AGPL License. See the [LICENSE](LICENSE) file for more details.
 
 ## Conclusion
 
@@ -147,4 +147,4 @@ V0rtex aims to be a highly customizable and hackable browser designed for Linux 
 
 Feel free to reach out with any questions or suggestions. Happy browsing with V0rtex!
 
-> Created by Amosnimos 2024 - Under MIT License
+> Created by Amosnimos 2024 - Under GNU AGPL License
