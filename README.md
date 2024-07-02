@@ -6,6 +6,9 @@
 
 Welcome to **V0rtex**, the world's most customizable and hackable browser! V0rtex is an open-source browser designed with hobbyists and Linux users in mind, providing unparalleled flexibility and simplicity in a minimalistic package.
 
+## Philosophy and Vision
+Amidst a landscape dominated by corporate giants, V0rtex emerges as a minimalist alternative to Chrome and Firefox. Rooted in the libre software movement, V0rtex prioritizes clarity, transparency, and deep customization. While its privacy features evolve, V0rtex empowers users with an accessible, comprehensible browser experience, distinct from Chrome-based norms. It stands for user choice and independence, offering a soulful alternative in today's tech sphere.
+
 ## Key Features
 
 ### Customizable GUI
@@ -16,15 +19,21 @@ Welcome to **V0rtex**, the world's most customizable and hackable browser! V0rte
 - **CSS Injection**: Write and apply your custom CSS to any webpage you visit, modifying the look and feel to your preferences.
 - **JavaScript Injection**: Inject custom JavaScript into webpages to enhance functionality or automate tasks.
 
-Rich Browser Features
+#### Rich Browser Features
 
-    Favorites: Easily save your favorite websites for quick access.
-    Script and CSS Control: Disable scripts and CSS on webpages to enhance security and reduce unnecessary content.
+- Favorites: Easily save your favorite websites for quick access.
+- Script and CSS Control: Disable scripts and CSS on webpages to enhance security and reduce unnecessary content.
 
-Simplicity and Minimalism
+#### Simplicity and Minimalism
+- **Minimalist Design**: V0rtex focuses on providing a clean and straightforward browsing experience without unnecessary clutter.
 
-    Minimalist Design: V0rtex focuses on providing a clean and straightforward browsing experience without unnecessary clutter.
-    Rich Feature Set: Despite its simplicity, V0rtex attempt to offer all the essential features you expect from a modern browser.
+- **Rich Feature Set**: Despite its simplicity, V0rtex attempts to offer all the essential features you expect from a modern browser.
+
+- **Portable and Lightweight**: The main V0rtex browser code is designed as a single file (excluding minimal library requirements), ensuring ease of distribution and setup.
+
+- **Minimalism at its Core**: V0rtex embodies the philosophy of minimalism, offering a highly customizable browsing experience with minimal overhead. By maintaining a single-file core and minimal dependencies, V0rtex streamlines both user experience and development.
+
+- **Following the Unix Philosophy**: V0rtex adheres to the Unix philosophy of doing one thing and doing it well—providing a reliable web browsing experience. This approach focuses on delivering efficiency and robust functionality without unnecessary complexity.
 
 ## Why Open Source?
 
@@ -110,8 +119,6 @@ The project will always have a release available for Linux. However, these steps
 > NOTE: The libraries are not included in the repository but can be installed using the `requirements.txt` file provided.
 
 By following these instructions, you can easily customize and contribute to the V0rtex project, ensuring that it remains one of the most hackable and customizable browsers available.
-
-
 
 ### Configuration
 V0rtex uses a configuration file located at `~/.config/v0rtex/v0rtex.conf`. This file allows you to set default settings such as the default URL, background color, foreground color, font size, and toggles for JavaScript, CSS, and cookies.
