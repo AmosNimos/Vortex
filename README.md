@@ -145,6 +145,8 @@ V0rtex aims to be a highly customizable and hackable browser designed for Linux 
 
 ---
 
+⚠️ Disclaimer: I use ChatGPT to check spelling and rephrase my README, and to help me in crafting this browser. Contributors should feel free to use AI tools too, as it's the result that matters. I know AI does not replace hard work when used correctly to enhance a project.
+
 Feel free to reach out with any questions or suggestions. Happy browsing with V0rtex!
 
 > Created by Amosnimos 2024 - Under GNU AGPL License
