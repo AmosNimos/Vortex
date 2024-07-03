@@ -1,3 +1,14 @@
+################################################################################
+# Name:        v0rtex
+# Date:        2024-07-03
+# Author:      Amosnimos
+# Description: Customizable, minimalist browser that puts users freedoms first
+################################################################################
+
+# ▌ ▌▞▀▖▛▀▖▀▛▘▛▀▘▌ ▌
+# ▚▗▘▌▌▌▙▄▘ ▌ ▙▄ ▝▞ 
+# ▝▞ ▌ ▌▌▚  ▌ ▌  ▞▝▖
+#  ▘ ▝▀ ▘ ▘ ▘ ▀▀▘▘ ▘
 import sys
 import requests
 import configparser
