@@ -1,6 +1,5 @@
-# V0rtex Br0wser
+# <img src="icon.png" width="64px" height="64px"> V0rtex Br0wser 
 
-<img src="icon.png" width="200px" height="200px">
 
 ## Introduction
 
