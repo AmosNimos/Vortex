@@ -73,7 +73,7 @@ To install V0rtex on your Linux system, follow these steps:
 
 ### For Users Wanting to Customize the Source Code
 
-The project will always have a release available for Linux. However, these steps are for users wanting to customize the source code, not just the compiled release. Keep in mind one of the principles of V0rtex is to keep the project as a single file so people can simply copy the code into their clipboard and paste it into an empty file to get the full project on their computer! As long as they have Python and the required libraries installed, they can run V0rtex. Therefore, you don't really have a reason to clone the whole repository unless you want to create a fork or contribute to the original project.
+The project will always have a <a href="https://github.com/AmosNimos/Vortex/releases">release</a> available for Linux. However, these steps are for users wanting to customize the source code, not just the compiled release. Keep in mind one of the principles of V0rtex is to keep the project as a single file so people can simply copy the code into their clipboard and paste it into an empty file to get the full project on their computer! As long as they have Python and the required libraries installed, they can run V0rtex. Therefore, you don't really have a reason to clone the whole repository unless you want to create a fork or contribute to the original project.
 
 ### Forking the Project
 
