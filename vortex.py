@@ -44,7 +44,7 @@ class FavoritesDialog(QDialog):
         layout.addWidget(self.list_widget)
 
         # Add button to set selected URL as default and close dialog
-        self.button_set_default = QPushButton("O")
+        self.button_set_default = QPushButton("✓")
         self.button_set_default.clicked.connect(self.set_default_and_close)
         self.button_set_default.setStyleSheet(self.button_stylesheet())
 
@@ -80,24 +80,6 @@ class FavoritesDialog(QDialog):
             else:
                 QMessageBox.warning(self, "Error", "URL bar not found in main window")
 
-#    def add_to_favorites(self):
-#        # Get the main window instance
-#        main_window = self.parent()
-#        if main_window is None:
-#            return
-#        
-#        # Get the current URL from the main window
-#        current_url = main_window.browser.url().toString()
-#
-#        # Save the current URL to favorites file
-#        fav_file = Path.home() / '.config' / 'vortex' / 'fav.txt'
-#        try:
-#            with open(fav_file, 'a') as f:
-#                f.write(current_url + '\n')
-#            QMessageBox.information(self, "Success", "URL added to favorites.")
-#        except Exception as e:
-#            QMessageBox.critical(self, "Error", f"Failed to add URL to favorites: {str(e)}")
-#        self.reject()  # Close the dialog
 
     def add_to_favorites(self):
         # Get the main window instance
@@ -142,10 +124,6 @@ class FavoritesDialog(QDialog):
                 color: {gui_bg};
             }}
         """
-        #self.setup_ui = QLineEdit()
-        #self.setup_ui.returnPressed.connect(self.navigate_to_url)
-        #self.setup_ui.setMinimumWidth(400)  # Set minimum width for the url bar
-# ---            
 
                 
 def str_to_bool(s):
@@ -292,13 +270,6 @@ class MainWindow(QMainWindow):
         self.save_button.clicked.connect(self.save_page)
         self.toolbar_actions.addWidget(self.save_button)
 
-        # Favorite button
-        self.favorite_button = QToolButton()
-        self.favorite_button.setText("+")
-        self.favorite_button.setToolTip("Add to Favorites")
-        self.favorite_button.clicked.connect(self.add_to_favorites)
-        self.toolbar_actions.addWidget(self.favorite_button)
-
         # URL toolbar
         self.toolbar_url = QToolBar()
         self.addToolBar(Qt.TopToolBarArea, self.toolbar_url)
@@ -316,28 +287,16 @@ class MainWindow(QMainWindow):
         self.toolbar_actions.addWidget(self.favorites_button)
 
         self.favorites_button.setStyleSheet(self.button_stylesheet())
-        self.favorite_button.setStyleSheet(self.button_stylesheet())
         self.back_button.setStyleSheet(self.button_stylesheet())
         self.forward_button.setStyleSheet(self.button_stylesheet())
         self.reload_button.setStyleSheet(self.button_stylesheet())
         self.save_button.setStyleSheet(self.button_stylesheet())
 
-#    def show_favorites(self):
-#        # Implement this method to show the list of favorites
-#        favorites_dialog = FavoritesDialog(self)
-#        favorites_dialog.exec_()
 
     def show_favorites(self):
         # Implement this method to show the list of favorites
         favorites_dialog = FavoritesDialog(self)
         favorites_dialog.exec_()
-
-        # Set hover effects using style sheet
-
-
-        # Associate the menu with the dropdown button
-#        self.dropdown_button.setMenu(self.toolbar_menu)
-#        self.dropdown_button.setPopupMode(QToolButton.MenuButtonPopup)
 
     def add_to_favorites(self):
         url = self.browser.url().toString()
@@ -370,18 +329,6 @@ class MainWindow(QMainWindow):
         self.toolbar_url.addWidget(self.url_bar)
 
     def apply_settings(self):
-#        if not css_toggle:
-            # Disable CSS before the page is loaded
-#            settings = self.browser.page().settings()
-#            settings.setAttribute(QWebEngineSettings.JavascriptEnabled, False)
-#            settings.setAttribute(QWebEngineSettings.AutoLoadImages, False)
-#            settings.setAttribute(QWebEngineSettings.PluginsEnabled, False)
-
-       # Disable native scroll bars and inject custom CSS
-        #settings = QWebEngineSettings.globalSettings()
-        #settings.setAttribute(QWebEngineSettings.ScrollBarDragEnabled, False)
-        #settings.setAttribute(QWebEngineSettings.ScrollBarContextMenuEnabled, False)
-
         if not css_toggle:
             settings = self.browser.page().settings()
             settings.setAttribute(QWebEngineSettings.AutoLoadImages, False)
