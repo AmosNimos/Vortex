@@ -1,6 +1,5 @@
 # <img src="icon.png" width="64px" height="64px"> V0rtex Br0wser 
 
-
 ## Introduction
 
 Welcome to **V0rtex**, the world's most customizable and hackable browser! V0rtex is an open-source browser designed with hobbyists and Linux users in mind, providing unparalleled flexibility and simplicity in a minimalistic package.
@@ -21,6 +20,7 @@ Amidst a landscape dominated by corporate giants, V0rtex emerges as a minimalist
 - **Move GUI Elements**: Arrange and position toolbar buttons, URL bars, and other interface components to suit your workflow.
 - **Theme Customization**: Easily change the color, text size, and style of the entire application.
 
+
 ### Web Page Customization
 - **CSS Injection**: Write and apply your custom CSS to any webpage you visit, modifying the look and feel to your preferences.
 - **JavaScript Injection**: Inject custom JavaScript into webpages to enhance functionality or automate tasks.
@@ -40,6 +40,8 @@ Amidst a landscape dominated by corporate giants, V0rtex emerges as a minimalist
 - **Minimalism at its Core**: V0rtex embodies the philosophy of minimalism, offering a highly customizable browsing experience with minimal overhead. By maintaining a single-file core and minimal dependencies, V0rtex streamlines both user experience and development.
 
 - **Following the Unix Philosophy**: V0rtex adheres to the Unix philosophy of doing one thing and doing it well—providing a reliable web browsing experience. This approach focuses on delivering efficiency and robust functionality without unnecessary complexity.
+
+🚧 Disclaimer: This project is still in development. 🚧 Not all features might be fully implemented yet or may be missing entirely.
 
 ## Why Open Source?
 
