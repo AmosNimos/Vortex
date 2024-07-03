@@ -49,15 +49,7 @@ V0rtex could have been just another closed-source project hidden in the shadows,
 Feel free to create your own branch or fork of this project. Just make sure to link back to the original repository and provide proper accreditation on the main page, both for recognition and license compliance.
 
 Being open source allows V0rtex to be truly customizable. Users can modify the source code to add new features, fix bugs, or enhance existing functionality. Contributions from the community help to make V0rtex "THE" world's most customizable browser.
-## Why Open Source?
 
-V0rtex could have been just another closed-source project hidden in the shadows, but I chose to share it with the world! It had to be open source to truly fulfill its potential as one of the most hackable, modifiable, and customizable browsers available. By using Python, a beginner-friendly programming language, V0rtex becomes even more accessible and customizable.
-
-Feel free to create your own branch or fork of this project. Just make sure to link back to the original repository and provide proper accreditation on the main page, both for recognition and license compliance.
-
-Being open source allows V0rtex to be truly customizable. Users can modify the source code to add new features, fix bugs, or enhance existing functionality. Contributions from the community help to make V0rtex "THE" world's most customizable browser.
-
-Sure, let's update the instructions to reflect the single-file nature of the project and include instructions for forking and contributing:
 
 ### Installation
 
