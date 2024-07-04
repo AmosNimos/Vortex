@@ -8,6 +8,9 @@ Welcome to **V0rtex**, Just trying to be a functional minimal python web browser
 
 > Navigate the Information Superhighway (Internet) Without Built-in Influence or Interference from Large Monopolies and Political Agendas. A Step Towards a Free Digital Frontier!
 
+## Screenshots
+<img src="vortex_Screenshot_2024-07-02 12-11-18.png">
+
 ## Philosophy and Vision
 Amidst a landscape dominated by corporate giants, V0rtex emerges as a minimalist alternative. Rooted in the libre software movement, V0rtex empowers users with an accessible, comprehensible browser experience, distinct from Chromium-based norms. It stands for user choice and independence, offering a soulful alternative in today's tech sphere.
 
@@ -23,10 +26,11 @@ As a Mozilla Firefox user, I became aware of internal politics at Mozilla that d
 The browser market is saturated with clones based on a few dominant big-tech browsers. I wanted to create something different—a minimalist, vintage-inspired web browser. V0rtex is designed for accessing basic, minimal websites like my own, amosnimos.com.
 
 Here are links to a series of videos by Bryan Lunduke that inspired me to start this project:
-https://www.youtube.com/watch?v=db225xgSNZs
-https://www.youtube.com/watch?v=3KDcxSZDang
-https://www.youtube.com/watch?v=a4FwrNoRWe0
-https://www.youtube.com/watch?v=kqycC4_7d_M
+
+- [https://www.youtube.com/watch?v=db225xgSNZs](https://www.youtube.com/watch?v=db225xgSNZs)
+- [https://www.youtube.com/watch?v=3KDcxSZDang](https://www.youtube.com/watch?v=3KDcxSZDang)
+- [https://www.youtube.com/watch?v=a4FwrNoRWe0](https://www.youtube.com/watch?v=a4FwrNoRWe0)
+- [https://www.youtube.com/watch?v=kqycC4_7d_M](https://www.youtube.com/watch?v=kqycC4_7d_M)
 
 
 ## Values
@@ -39,9 +43,6 @@ https://www.youtube.com/watch?v=kqycC4_7d_M
 ### What it is not
 - A **Modern** browser
 - Privacy/Safety focused (I am not specialized enough to make any claims about its privacy or safety. There are already many browsers that focus on these aspects; this is just not one of them. I mainly use defaults.)
-
-## Screenshots
-<img src="vortex_Screenshot_2024-07-02 12-11-18.png">
 
 ## Basic functionality
 
