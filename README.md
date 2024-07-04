@@ -17,6 +17,18 @@ V0rtex is, above all, an idea—a vision to provide more alternatives to combat 
 
 V0rtex's primary task is simply to work at accessing the web. V0rtex is aiming to offer the minimum needed to access the web.
 
+## Why I Started the V0rtex Project
+As a Mozilla Firefox user, I became aware of internal politics at Mozilla that didn't align with my preferences. Feeling dissatisfied with the current browser landscape and recognizing the lack of viable alternatives, I decided to create V0rtex—a plain and simple browser. 
+
+The browser market is saturated with clones based on a few dominant big-tech browsers. I wanted to create something different—a minimalist, vintage-inspired web browser. V0rtex is designed for accessing basic, minimal websites like my own, amosnimos.com.
+
+Here are links to a series of videos by Bryan Lunduke that inspired me to start this project:
+https://www.youtube.com/watch?v=db225xgSNZs
+https://www.youtube.com/watch?v=3KDcxSZDang
+https://www.youtube.com/watch?v=a4FwrNoRWe0
+https://www.youtube.com/watch?v=kqycC4_7d_M
+
+
 ## Values
 - **Clarity**: The browser aims to offer a clean and straightforward user interface, making it easy for users to navigate and use the features without unnecessary complexity.
 
