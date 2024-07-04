@@ -2,38 +2,54 @@
 
 ## Introduction
 
-Welcome to **V0rtex**, the world's most customizable and hackable browser! V0rtex is an open-source browser designed with hobbyists and Linux users in mind, providing unparalleled flexibility and simplicity in a minimalistic package.
+Welcome to **V0rtex**, Just trying to be a functional minimal python web browser! V0rtex is an open-source browser designed with hobbyists and Linux users in mind.
 
 **V0rtex** : Use It, Hack It, Own It
 
 > Navigate the Information Superhighway (Internet) Without Built-in Influence or Interference from Large Monopolies and Political Agendas. A Step Towards a Free Digital Frontier!
 
 ## Philosophy and Vision
-Amidst a landscape dominated by corporate giants, V0rtex emerges as a minimalist alternative to Chrome and Firefox. Rooted in the libre software movement, V0rtex prioritizes clarity, transparency, and deep customization. While its privacy features evolve, V0rtex empowers users with an accessible, comprehensible browser experience, distinct from Chrome-based norms. It stands for user choice and independence, offering a soulful alternative in today's tech sphere.
+Amidst a landscape dominated by corporate giants, V0rtex emerges as a minimalist alternative. Rooted in the libre software movement, V0rtex empowers users with an accessible, comprehensible browser experience, distinct from Chromium-based norms. It stands for user choice and independence, offering a soulful alternative in today's tech sphere.
+
+I don't claim that this browser is innovative; it doesn't need to be. This is about reinventing the wheel in a way that aligns with a different set of values. V0rtex is designed to be small and minimal, focusing on simplicity and user control. It's not about breaking new ground but about providing an alternative that improves over time.
+
+V0rtex is, above all, an idea—a vision to provide more alternatives to combat the big-tech monopoly and influence over the browser market. If you find the project too simple, then create your own! If it doesn't meet your needs, contribute and help shape a version that does. The core need I'm addressing is the lack of alternatives.
+
+V0rtex's primary task is simply to work at accessing the web. V0rtex is aiming to offer the minimum needed to access the web.
+
+## Values
+- **Clarity**: The browser aims to offer a clean and straightforward user interface, making it easy for users to navigate and use the features without unnecessary complexity.
+
+- **Transparency**: V0rtex is open-source and provides users with insight into how it works. This openness ensures users can trust the software and understand what it does, promoting an honest and clear relationship between the software and its users.
+
+- **Deep Customization**: The browser aim to be highly customizable, allowing users to modify and tailor the browser to their specific needs and preferences. This includes changing the appearance, behavior, and functionalities to suit individual workflows and styles.
+
+### What it is not
+- A **Modern** browser
+- Privacy/Safety focused (I am not specialized enough to make any claims about its privacy or safety. There are already many browsers that focus on these aspects; this is just not one of them. I mainly use defaults.)
 
 ## Screenshots
 <img src="vortex_Screenshot_2024-07-02 12-11-18.png">
 
-## Key Features
+## Basic functionality
 
 ### Customizable GUI
 - **Move GUI Elements**: Arrange and position toolbar buttons, URL bars, and other interface components to suit your workflow.
 - **Theme Customization**: Easily change the color, text size, and style of the entire application.
 
-
 ### Web Page Customization
-- **CSS Injection**: Write and apply your custom CSS to any webpage you visit, modifying the look and feel to your preferences.
-- **JavaScript Injection**: Inject custom JavaScript into webpages to enhance functionality or automate tasks.
+- **Automatic CSS Injection**: Write and apply your custom CSS to any webpage you visit, modifying the look and feel to your preferences. This allows for easy and direct customization without the need for complex setups or extensions.
+- **Automatic JavaScript Injection**: Inject custom JavaScript into webpages to enhance functionality or automate tasks. Unlike many modern browsers that require compiling extensions or writing manifests, V0rtex allows you to simply paste your scripts into a `script.js` file, and they will run automatically. This straightforward approach makes it easy to customize and extend the browser’s capabilities.
 
-#### Rich Browser Features
+#### Default Browser Features
 
-- Favorites: Easily save your favorite websites for quick access.
+- Favorites: Easily save and load your favorite websites url to a text file for quick access.
 - Script and CSS Control: Disable scripts and CSS on webpages to enhance security and reduce unnecessary content.
 
 #### Simplicity and Minimalism
 - **Minimalist Design**: V0rtex focuses on providing a clean and straightforward browsing experience without unnecessary clutter.
 
-- **Rich Feature Set**: Despite its simplicity, V0rtex attempts to offer all the essential features you expect from a modern browser.
+- **Rich Feature Set**: Despite its simplicity, V0rtex attempts to offer all the **essential** features you expect from a minimal browser.
 
 - **Portable and Lightweight**: The main V0rtex browser code is designed as a single file (excluding minimal library requirements), ensuring ease of distribution and setup.
 
@@ -50,7 +66,6 @@ V0rtex could have been just another closed-source project hidden in the shadows,
 Feel free to create your own branch or fork of this project. Just make sure to link back to the original repository and provide proper accreditation on the main page, both for recognition and license compliance.
 
 Being open source allows V0rtex to be truly customizable. Users can modify the source code to add new features, fix bugs, or enhance existing functionality. Contributions from the community help to make V0rtex "THE" world's most customizable browser.
-
 
 ### Installation
 
@@ -128,10 +143,17 @@ To ensure the configuration file and necessary directories are set up, run the f
 python setup_config.py
 ```
 
-### Usage
-- **Navigate to a URL**: Enter the URL in the URL bar and press Enter.
-- **Customize Appearance**: Modify `~/.config/v0rtex/style.css` and `~/.config/v0rtex/theme.css` to change the appearance of the sites and browser respectively.
-- **Save Favorites**: Click the star icon to add the current page to your favorites, saved in `~/.config/v0rtex/fav.txt`.
+### Main Libraries Used in the V0rtex Project
+
+1. **sys**
+2. **requests**
+3. **PyQt5.QtCore (Qt, QUrl)**
+4. **pathlib (Path)**
+5. **configparser**
+6. **PyQt5.QtWidgets (QApplication, QMainWindow, QWidget, QVBoxLayout, QLineEdit, QToolBar, QAction, QMenu, QMessageBox, QFileDialog, QTextEdit, QToolButton)**
+7. **PyQt5.QtWebEngineWidgets (QWebEngineView, QWebEngineSettings)**
+
+>  ⚠️ Disclaimer: This list can be outdated. Look at the top of the `vortex.py` file for a current, up-to-date library list.
 
 ## Contributing
 We welcome contributions from the community! If you have ideas for new features, bug fixes, or enhancements, feel free to submit a pull request on our [GitHub repository](https://github.com/AmosNimos/Vortex).
@@ -145,7 +167,7 @@ V0rtex aims to be a highly customizable and hackable browser designed for Linux 
 
 ---
 
-⚠️ Disclaimer: I use ChatGPT to check spelling and rephrase my README, and to help me in crafting this browser. Contributors should feel free to use AI tools too, as it's the result that matters. I know AI does not replace hard work when used correctly to enhance a project.
+> ⚠️ Disclaimer: I use ChatGPT to check spelling and rephrase my README, and to help me in crafting this browser. Contributors should feel free to use AI tools too, as it's the result that matters. I know AI does not replace hard work when used correctly to enhance a project.
 
 Feel free to reach out with any questions or suggestions. Happy browsing with V0rtex!
 
