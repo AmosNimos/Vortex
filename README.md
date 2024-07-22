@@ -4,6 +4,8 @@
 
 Welcome to **V0rtex**, Just trying to be a functional minimal python web browser! V0rtex is an open-source browser designed with hobbyists and Linux users in mind.
 
+Vortex is trying to be an alternative not a replacement.
+
 **V0rtex** : Use It, Hack It, Own It
 
 > Navigate the Information Superhighway (Internet) Without Built-in Influence or Interference from Large Monopolies and Political Agendas. A Step Towards a Free Digital Frontier!
